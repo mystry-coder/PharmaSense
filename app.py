@@ -1,4 +1,4 @@
-
+"""
 NOTE ON THE AI FEATURE:
     You need a free Gemini API key from https://aistudio.google.com/apikey
     Paste it into the sidebar when the app runs (or set GEMINI_API_KEY as
