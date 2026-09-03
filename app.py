@@ -1,21 +1,3 @@
-"""
-app.py
--------
-PharmaSense: a mini pharma sales analytics dashboard with a
-natural-language "Ask AI" feature.
-
-HOW TO RUN LOCALLY:
-    1. pip install -r requirements.txt
-    2. python init_db.py          (creates the database, only needed once)
-    3. streamlit run app.py
-
-WHAT THIS APP DOES:
-    - Reads sales data from pharmasense.db (SQLite)
-    - Shows filterable charts and tables (rep performance, territory sales,
-      product sales, HCP-level breakdown)
-    - Lets the user type a plain-English question like
-      "Which territory sold the most CardioEase?" and uses an LLM (Gemini)
-      to turn that into a SQL query, run it, and show the answer.
 
 NOTE ON THE AI FEATURE:
     You need a free Gemini API key from https://aistudio.google.com/apikey
