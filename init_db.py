@@ -1,17 +1,6 @@
 """
 init_db.py
 -----------
-This script creates a small SQLite database (pharmasense.db) filled with
-FAKE / SYNTHETIC pharma sales data — sales reps, doctors (HCPs = Health
-Care Professionals), territories, and sales transactions.
-
-Why SQLite? It's just a single file, no server to install, and Python has
-built-in support for it (the `sqlite3` module). Perfect for a quick project.
-
-Run this once with:
-    python init_db.py
-
-It will create/overwrite pharmasense.db in the same folder.
 """
 
 import sqlite3
